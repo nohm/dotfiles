@@ -1,5 +1,6 @@
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
+/* HIDE START */
 #appmenu-button-container, 
 #appmenu-toolbar-button,
 #star-button,
@@ -24,7 +25,9 @@ menuitem[disabled="true"],
 {
     display: none !important;
 }
+/* HIDE END */
 
+/* BUTTONS */
 #back-button .toolbarbutton-icon
 {
     -moz-image-region:rect(-1px, 11px, 11px, 0)!important;
@@ -79,7 +82,9 @@ menuitem[disabled="true"],
 {
 list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAALCAYAAADLA1tMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAhVJREFUSEvt1j2KlTEUxvHr5/jtOKKiIjaixYC4FHUDFlNMN1twFS7BxjVooViKhZ1iIS5AEFQQRH1+wxsI4c2bq60+8Cfk5Jw3yclJ7l3911iHwpGpndNovNaBwPdY2AiHJ1utg4FdW6tnLxqNkzUeDWXedWL2JfBa+BW2GGbEbpxfLxllwrPhUfgWnobdIDF1Mvi9COdC+Z5W/10wPicbfDO1PV0K1nov+M46MfuOt4LAm6G3SXbj/Pi3C5WE8+Fl4Hd66t8Nj4Nk1DH8L4cfYTNI1JnwJUhk7/SOh69T29OJYJ0fwtVwMizG2NydIOj61F+ScX78xdX+V8Kr8DG8DSZVATYvGSrDNakl3uY/T60kiGuToO80jUnaz6nVZ2/9SyIehiehxHQTcSoIuB0Wy6YSP/7ixBdZzMXgOuwFV4gk40Jg92a0KpXge1r9VpKptJ2qDfHV6rO31VkS4Zo9DztTn31WTsTg96BM16kIfvzFtf5O/Fm4H8pJjSrCYktFuCZKuf3un1YEOx8HdSO8D4uJIB8RaHPboZcMduP8+LeTk017C7wJNq8Slt4Im5EEb0KpDMlYWoe5R29E7WPOB2GYCCrJ+BTmSpPYjfObSwK5BvxsWgWMfjVeBy982bTWIysZvavKPvoFqH3Mac0S0VbkrGzO4nqbHI0XlQfSpH/7P0LSevP04mq1Ptqlb/6rWq1+AymSU4vSoriaAAAAAElFTkSuQmCC") !important;
 }
+/* BUTTONS END */
 
+/* TABS START */
 #tabbrowser-tabs,
 .tabbrowser-tab > .tab-stack,
 .tabs-newtab-button > .toolbarbutton-icon,
@@ -88,17 +93,20 @@ list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAALCAYA
 #navigator-toolbox[tabsontop=true]:not([customizing]) > #nav-bar[collapsed=true] + #customToolbars + #PersonalToolbar,
 #main-window:not([chromedisabled]) #navigator-toolbox[tabsontop=false]::after,
 #main-window[disablechrome] #navigator-toolbox[tabsontop=true]::after,
-#nav-bar {
+#nav-bar 
+{
   border-radius: 0 !important;
   border: none !important;
 }
 
 .tabbrowser-tab > .tab-stack,
-.tabs-newtab-button > .toolbarbutton-icon {
+.tabs-newtab-button > .toolbarbutton-icon 
+{
   -moz-border-start: 0 !important;
 }
 
-#tabbrowser-tabs:not([overflow=true])::before {
+#tabbrowser-tabs:not([overflow=true])::before 
+{
   display: -moz-box !important;
   content: "" !important;
   width: 1px !important;
@@ -106,29 +114,37 @@ list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAALCAYA
   margin-left: 0px !important;
   border: none !important;
 }
+
 /*
-#tabbrowser-tabs:not([overflow=true]):not([drag])::before {
+#tabbrowser-tabs:not([overflow=true]):not([drag])::before 
+{
     background-color: rgba(20,23,26,.42) !important;
 }
 */
-#main-window[sizemode=maximized] #tabbrowser-tabs:not([overflow=true])::before {
+
+#main-window[sizemode=maximized] #tabbrowser-tabs:not([overflow=true])::before 
+{
     margin-left: -6px !important;
 }
 
-.tabbrowser-tab .tab-close-button {
+.tabbrowser-tab .tab-close-button 
+{
     visibility: collapse !important;
 }
 
-#main-window[sizemode=normal][tabsontop] #appmenu-button-container {
+#main-window[sizemode=normal][tabsontop] #appmenu-button-container 
+{
     position: fixed !important;
     z-index: 2 !important;
 }
 
-#main-window[sizemode=normal][tabsontop] #toolbar-menubar[autohide=true] {
+#main-window[sizemode=normal][tabsontop] #toolbar-menubar[autohide=true] 
+{
     margin-top: -22px;
 }
 
-#main-window[sizemode=normal] #navigator-toolbox[tabsontop] > #toolbar-menubar[autohide=true] ~ #TabsToolbar {
+#main-window[sizemode=normal] #navigator-toolbox[tabsontop] > #toolbar-menubar[autohide=true] ~ #TabsToolbar 
+{
     -moz-padding-start: 0px !important;
     -moz-padding-end: 110px !important;
 }
@@ -136,30 +152,36 @@ list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAALCAYA
 .tabbrowser-tab[selected],
 .tabbrowser-tab:not([selected]),
 #nav-bar,
-#urlbar {
+#urlbar 
+{
     background: none !important;
 }
 
-.tabbrowser-tab[selected] {
+.tabbrowser-tab[selected] 
+{
     font-weight: bold !important;
     /*font-style: italic !important;*/
 }
 
-.tabbrowser-tab, #urlbar {
+.tabbrowser-tab, #urlbar 
+{
     color: #000000 !important;
     /*text-shadow: 0 0 0.2em #ffffff !important;*/
 }
 
-.tabbrowser-tab:hover, #urlbar:hover {
+.tabbrowser-tab:hover, #urlbar:hover 
+{
     color: #ffffff  !important;
     /*text-shadow: 0 0 0.2em #000000 !important;*/
 }
 
-#unified-back-forward-button {
+#unified-back-forward-button 
+{
     padding-bottom: 2px !important;
 }
 
-#urlbar {
+#urlbar 
+{
     height: 20px !important;
     padding-left: 3px !important;
     padding-right: 23px !important;
@@ -169,59 +191,72 @@ list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAALCAYA
     min-width: 150px !important;
 }
 
-#main-window[sizemode=normal] #urlbar {
+#main-window[sizemode=normal] #urlbar 
+{
     margin: 1.5px 0px 0px 0px !important;
 }
 
-#main-window[sizemode=normal] #main-menubar {
+#main-window[sizemode=normal] #main-menubar 
+{
     margin-left: -22px !important;
 }
 
-.tabbrowser-tab {
+.tabbrowser-tab 
+{
     border: none !important;
     /*padding: 3px 2px 3px 3px !important;*/
     /*margin-bottom: 1px !important;*/
     min-width: 125px !important;
 }
 
-#main-window:not([sizemode=normal]) .tabbrowser-tab {
+#main-window:not([sizemode=normal]) .tabbrowser-tab 
+{
     margin-bottom: 0px !important;
 }
 
-#main-window[sizemode=normal] #tabbrowser-tabs {
+#main-window[sizemode=normal] #tabbrowser-tabs 
+{
     margin-top: 4px !important;
     margin-left: !important;
 }
 
-#main-window:not([sizemode=normal]) #tabbrowser-tabs {
+#main-window:not([sizemode=normal]) #tabbrowser-tabs 
+{
     margin-top 2px !important;
 }
 
-#main-window[sizemode=normal] #nav-bar {
+#main-window[sizemode=normal] #nav-bar 
+{
     margin-left: .5px !important;
     margin-right: 1px !important;
 }
 
-#navigator-toolbox {
+#navigator-toolbox 
+{
     margin-right: .5px !important;
     margin-bottom: -1px !important;
 }
 
-#main-window:not([sizemode=normal]) #nav-bar {
+#main-window:not([sizemode=normal]) #nav-bar 
+{
 	margin-top: -1px !important;
 }
 
-menubar > menu,.tab-text, .menu-text, .toolbarbutton-text, .statusbarpanel-text, #urlbar {
+menubar > menu,.tab-text, .menu-text, .toolbarbutton-text, .statusbarpanel-text, #urlbar 
+{
     /*font-family: ProFontWindows !important;*/
     font-family: Tahoma !important;
     font-size: 10px !important;
 }
 
-#__customToolbar_nav {
+#__customToolbar_nav 
+{
     background: none !important;
     height: 15px !important;
 }
 
-#main-window[sizemode=normal] #__customToolbar_nav {
+#main-window[sizemode=normal] #__customToolbar_nav 
+{
     margin-bottom: 4px !important;
 }
+/* TABS END */
