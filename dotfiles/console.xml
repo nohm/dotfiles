@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <settings>
-	<console change_refresh="10" refresh="100" rows="35" columns="100" buffer_rows="500" buffer_columns="0" shell="%SystemRoot%\system32\cmd.exe /K &quot;C:\Users\snack\Documents\Apps\Console2\scripts\ar.cmd&quot;" init_dir="C:\" start_hidden="0" save_size="0">
+	<console change_refresh="10" refresh="100" rows="35" columns="100" buffer_rows="500" buffer_columns="0" shell="%SystemRoot%\system32\cmd.exe /K &quot;C:\Users\snack\Documents\Apps\Console2\scripts\autorun.cmd&quot;" init_dir="C:\" start_hidden="0" save_size="0">
 		<colors>
 			<color id="0" r="57" g="57" b="57"/>
 			<color id="1" r="0" g="153" b="188"/>
