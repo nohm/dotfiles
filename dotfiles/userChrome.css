@@ -156,7 +156,7 @@ list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAY
 
 #unified-back-forward-button {
     margin-left: -4px !important;
-    padding-bottom: 2px !important;
+    padding-bottom: 1.5px !important;
 }
 
 #forward-button:hover,
@@ -202,8 +202,7 @@ list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAY
     margin-right: 1px !important;
 }
 
-#navigator-toolbox 
-{
+#navigator-toolbox {
     margin-right: .5px !important;
     margin-bottom: -1px !important;
 }
