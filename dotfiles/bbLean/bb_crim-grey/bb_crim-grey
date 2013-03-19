@@ -1,0 +1,133 @@
+! Stylefile for blackbox
+
+!-- info --
+style.name:	bb_crim-grey
+style.author: apathyrecharge
+style.date:	19 Mar 2013
+style.credits: based on bb_crim2 by apathyrecharge
+style.comments:	n/a
+
+!-- background --
+rootCommand: bsetroot -solid #cccaca
+
+!-- toolbar --
+toolbar.appearance: flat vertical
+toolbar.color1: #cccaca
+toolbar.color2: #cccaca
+toolbar.textColor: #777777
+toolbar.marginWidth: 1
+toolbar.font: ProggyTinyTTSZ
+toolbar.fontHeight:	10
+toolbar.alignment: center
+toolbar.label.appearance: flat vertical
+toolbar.label.color1: #cccaca
+toolbar.label.color2: #cccaca
+toolbar.label.textColor: #222222
+toolbar.label.marginWidth: 1
+toolbar.windowLabel.appearance: flat vertical
+toolbar.windowLabel.color1: #cccaca
+toolbar.windowLabel.color2: #cccaca
+toolbar.windowLabel.textColor: #222222
+toolbar.clock.appearance: flat vertical
+toolbar.clock.color1: #cccaca
+toolbar.clock.color2: #cccaca
+toolbar.clock.textColor: #777777
+toolbar.button.appearance: flat vertical
+toolbar.button.color1: #cccaca
+toolbar.button.color2: #cccaca
+toolbar.button.foregroundColor:	#222222
+toolbar.button.marginWidth: 1
+toolbar.button.pressed.appearance: flat vertical
+toolbar.button.pressed.color1: #cccaca
+toolbar.button.pressed.color2: #cccaca
+toolbar.button.pressed.foregroundColor:	#7c4333
+
+!-- menu --
+menu.title.appearance: flat vertical
+menu.title.color1: #cccaca
+menu.title.color2: #cccaca
+menu.title.textColor: #777777
+menu.title.marginWidth: 1
+menu.title.font: Blank
+menu.title.fontHeight: 13
+menu.title.alignment: center
+menu.title.borderColor: #cccaca
+menu.title.borderWidth: 1
+menu.frame.appearance: flat vertical
+menu.frame.foregroundColor: #cccaca
+menu.frame.textColor: #777777
+menu.frame.disabledColor: #000000
+menu.frame.borderColor: #cccaca
+menu.frame.borderWidth: 1
+menu.frame.marginWidth: 2
+menu.frame.font: Calibri
+menu.frame.fontHeight: 12
+menu.frame.alignment: left
+menu.frame.color1: #cccaca
+menu.frame.color2: #cccaca
+menu.active.appearance: flat vertical
+menu.active.color1: #cccaca
+menu.active.color2: #cccaca
+menu.active.foregroundColor: #bbbbbb
+menu.active.textColor: #8d8d88
+menu.active.borderColor: #cccaca
+menu.active.borderWidth: 1
+menu.active.marginWidth: 2
+menu.bullet: empty
+menu.bullet.position: right
+
+!-- window --
+window.title.focus.appearance: flat vertical
+window.title.focus.color1: #373737
+window.title.focus.color2: #2d2d2d
+window.label.focus.appearance: flat vertical
+window.label.focus.color1: #373737
+window.label.focus.color2: #2d2d2d
+window.label.focus.textColor: #9e5050
+window.handle.focus.appearance: flat vertical
+window.handle.focus.color1: #2e2e2e
+window.handle.focus.color2: #373737
+window.grip.focus.appearance: flat vertical
+window.grip.focus.color1: #2e2e2e
+window.grip.focus.color2: #373737
+window.button.focus.appearance: flat vertical
+window.button.focus.color1: #373737
+window.button.focus.color2: #2d2d2d
+window.button.focus.foregroundColor: #9e5050
+window.button.pressed.appearance: sunken vertical
+window.button.pressed.color1: #cccaca
+window.button.pressed.color2: #cccaca
+window.button.pressed.foregroundColor: #9e5050
+window.button.pressed.borderColor: #cccaca
+window.button.pressed.borderWidth: 1
+window.title.unfocus.appearance: flat vertical
+window.title.unfocus.color1: #373737
+window.title.unfocus.color2: #2d2d2d
+window.title.unfocus.borderColor: #cccaca
+window.title.unfocus.borderWidth: 1
+window.label.unfocus.appearance: flat vertical
+window.label.unfocus.color1: #373737
+window.label.unfocus.color2: #2d2d2d
+window.label.unfocus.textColor: #000000
+window.handle.unfocus.appearance: flat vertical
+window.handle.unfocus.color1: #2d2d2d
+window.handle.unfocus.color2: #2d2d2d
+window.handle.unfocus.borderColor: #cccaca
+window.handle.unfocus.borderWidth: 1
+window.grip.unfocus.appearance: parentrelative border
+window.grip.unfocus.borderColor: #cccaca
+window.grip.unfocus.borderWidth: 1
+window.button.unfocus.appearance: flat vertical
+window.button.unfocus.color1: #373737
+window.button.unfocus.color2: #2d2d2d
+window.button.unfocus.foregroundColor: #9e5050
+window.title.marginWidth: 2
+window.label.marginWidth: 0
+window.button.marginWidth: 0
+window.frame.focus.borderColor: #cccaca
+window.frame.unfocus.borderColor: #cccaca
+window.frame.borderWidth: 0
+window.handleHeight: 2
+window.font: blank
+window.fontHeight: 15
+window.alignment: left
