@@ -1,0 +1,1 @@
+UserChrome for firefox, will add a manual soon.

@@ -1,0 +1,1 @@
+Settings for Console2, drop this in the Console2 installation path.
