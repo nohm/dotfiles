@@ -29,6 +29,8 @@ menuitem[disabled="true"],
     display: none !important;
 }
 
+
+
 #identity-box {
     -moz-appearance: none !important;
     border: none !important;
@@ -147,8 +149,9 @@ list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAY
 }
 
 .tabbrowser-tab[selected] {
-    font-weight: bold !important;
+    /*font-weight: bold !important;*/
     /*font-style: italic !important;*/
+    /*text-shadow: 0 0 0.001em #000000 !important;*/
 }
 
 .tabbrowser-tab, #urlbar {
@@ -156,7 +159,7 @@ list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAY
     /*text-shadow: 0 0 0.2em #ffffff !important;*/
 }
 
-#unified-back-forward-button {
+ {
     margin-left: -4px !important;
     padding-bottom: 1.5px !important;
 }
@@ -178,10 +181,38 @@ list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAY
     min-width: 150px !important;
 }
 
+#main-window:not([sizemode=normal]) #unified-back-forward-button {
+    margin-top: -6px !important;
+}
+
+#main-window:not([sizemode=normal]) #reload-button {
+    margin-top: -4px !important;
+}
 
 #main-window[sizemode=normal] #urlbar {
-    margin: 1.5px 0px 0px 0px !important;
-    padding-bottom: 2.5px !important;
+    margin-top: 4px !important;
+}
+
+#main-window[sizemode=normal] .tabbrowser-tab {
+    padding-bottom: 0px !important;
+}
+
+#main-window[sizemode=normal] #tabbrowser-tabs {
+    margin-left: 0px !important;
+    margin-top: 1px !important;
+    margin-bottom: 1px !important;
+}
+
+#main-window[sizemode=normal] #unified-back-forward-button {
+    margin-bottom: 1px !important;
+}
+
+#main-window[sizemode=normal] #reload-button {
+    margin-bottom: -1px !important;
+}
+
+#main-window[sizemode=normal] .tab-throbber {
+    margin-bottom: 1px !important;
 }
 
 .tabbrowser-tab {
@@ -192,11 +223,13 @@ list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAY
 }
 
 #main-window:not([sizemode=normal]) .tabbrowser-tab {
-    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 2px !important;
 }
 
 #main-window:not([sizemode=normal]) #tabbrowser-tabs {
-    margin-top 2px !important;
+    margin-top: 0px !important;
+    margin-bottom: -1px !important;
 }
 
 #main-window[sizemode=normal] #nav-bar {
@@ -216,8 +249,9 @@ list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAY
 menubar > menu,.tab-text, .menu-text, .toolbarbutton-text, .statusbarpanel-text, #urlbar 
 {
     /*font-family: ProFontWindows !important;*/
-    font-family: Tahoma !important;
-    font-size: 10px !important;
+    /*font-family: Tahoma !important;*/
+    font-family: ProggyTinyTTSZ !important;
+    font-size: 16px !important;
 }
 /* TABS END */
 
