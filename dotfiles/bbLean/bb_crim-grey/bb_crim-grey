@@ -8,25 +8,25 @@ style.credits: based on bb_crim2 by apathyrecharge
 style.comments:	n/a
 
 !-- background --
-rootCommand: bsetroot -solid #cccaca
+rootCommand: bsetroot -solid #555555
 
 !-- toolbar --
 toolbar.appearance: flat vertical
 toolbar.color1: #cccaca
 toolbar.color2: #cccaca
 toolbar.textColor: #777777
-toolbar.marginWidth: 1
+toolbar.marginWidth: 0
 toolbar.font: ProggyTinyTTSZ
 toolbar.fontHeight:	10
 toolbar.alignment: center
 toolbar.label.appearance: flat vertical
-toolbar.label.color1: #cccaca
-toolbar.label.color2: #cccaca
+toolbar.label.color1: #aaaaaa
+toolbar.label.color2: #aaaaaa
 toolbar.label.textColor: #222222
-toolbar.label.marginWidth: 1
+toolbar.label.marginWidth: 0
 toolbar.windowLabel.appearance: flat vertical
-toolbar.windowLabel.color1: #cccaca
-toolbar.windowLabel.color2: #cccaca
+toolbar.windowLabel.color1: #aaaaaa
+toolbar.windowLabel.color2: #aaaaaa
 toolbar.windowLabel.textColor: #222222
 toolbar.clock.appearance: flat vertical
 toolbar.clock.color1: #cccaca
@@ -36,7 +36,7 @@ toolbar.button.appearance: flat vertical
 toolbar.button.color1: #cccaca
 toolbar.button.color2: #cccaca
 toolbar.button.foregroundColor:	#222222
-toolbar.button.marginWidth: 1
+toolbar.button.marginWidth: 0
 toolbar.button.pressed.appearance: flat vertical
 toolbar.button.pressed.color1: #cccaca
 toolbar.button.pressed.color2: #cccaca
@@ -66,10 +66,10 @@ menu.frame.alignment: left
 menu.frame.color1: #cccaca
 menu.frame.color2: #cccaca
 menu.active.appearance: flat vertical
-menu.active.color1: #cccaca
-menu.active.color2: #cccaca
+menu.active.color1: #aaaaaa
+menu.active.color2: #aaaaaa
 menu.active.foregroundColor: #bbbbbb
-menu.active.textColor: #8d8d88
+menu.active.textColor: #cccaca
 menu.active.borderColor: #cccaca
 menu.active.borderWidth: 1
 menu.active.marginWidth: 2
