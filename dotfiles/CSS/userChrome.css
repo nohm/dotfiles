@@ -219,11 +219,11 @@ menuitem[disabled="true"],
 }
 
 #main-window:not([sizemode=normal]) #unified-back-forward-button {
-    margin-top: -6px !important;
+    margin-top: -5px !important;
 }
 
 #main-window:not([sizemode=normal]) #reload-button {
-    margin-top: -4px !important;
+    margin-top: -3px !important;
 }
 
 #main-window[sizemode=normal] #urlbar {
